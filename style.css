@@ -43,6 +43,13 @@ header
     background: #6f1897;
     color: #fff;
 }
+#menu-icon
+{
+    color: white;
+    font-size: 30px;
+    z-index: 10001;
+    cursor: pointer;
+}
 .universo2
 {
     position: relative;
@@ -65,4 +72,48 @@ header
     left: 0;
     width: 100%;
     pointer-events: none;
+}
+.teste a
+{
+    background-color: #6f1897;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    padding: 12px 30px;
+    left: 40%;
+    bottom: 35%;
+}
+.teste a:hover
+{
+    opacity: 70%;
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(8px);
+}
+a
+{
+    text-decoration: none;
+}
+.icons
+{
+    position: absolute;
+    top: 89%;
+    left: 44%;
+}
+.icons i
+{
+    margin: 40px 0;
+    font-size: 30px;
+    color: white;
+    transition: all .50s ease;
+}
+.icons i:hover
+{
+    background-color: #6f1897;
+    color: #6f1897;
+    transform: translateY(-5px);
+}
+footer
+{
+    position: absolute;
 }
