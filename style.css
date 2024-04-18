@@ -43,12 +43,10 @@ header
     background: #6f1897;
     color: #fff;
 }
-#menu-icon
+.navegação a:hover, .navegação a.explore
 {
-    color: white;
-    font-size: 30px;
-    z-index: 10001;
-    cursor: pointer;
+    background: #6f1897;
+    color: #fff;
 }
 .universo2
 {
@@ -107,13 +105,10 @@ a
     color: white;
     transition: all .50s ease;
 }
+
 .icons i:hover
 {
     background-color: #6f1897;
     color: #6f1897;
     transform: translateY(-5px);
-}
-footer
-{
-    position: absolute;
 }
