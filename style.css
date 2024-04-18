@@ -43,6 +43,11 @@ header
     background: #6f1897;
     color: #fff;
 }
+.navegação a:hover, .navegação a.explore
+{
+    background: #6f1897;
+    color: #fff;
+}
 .universo2
 {
     position: relative;
